@@ -2,16 +2,16 @@
 class Jargon < Formula
   desc "Text pipelines for CLI and Go."
   homepage "https://github.com/clipperhouse/jargon"
-  version "0.9.12"
+  version "0.9.13"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/clipperhouse/jargon/releases/download/v0.9.12/jargon_0.9.12_Darwin_x86_64.tar.gz"
-    sha256 "eb87b153feeeebcaff0aba943cda8c4fd47a4b714a2c934e156a92131cfbead3"
+    url "https://github.com/clipperhouse/jargon/releases/download/v0.9.13/jargon_0.9.13_Darwin_x86_64.tar.gz"
+    sha256 "38f311c867a58febacfa1b8ff4a87222bf53e45dc8e9de35511351995cc4f39e"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/clipperhouse/jargon/releases/download/v0.9.12/jargon_0.9.12_Linux_x86_64.tar.gz"
-      sha256 "381d3c1f35e0a8b8c08cd5dbc2b29c3b5395553ad9e030c6b303f89bf1d86215"
+      url "https://github.com/clipperhouse/jargon/releases/download/v0.9.13/jargon_0.9.13_Linux_x86_64.tar.gz"
+      sha256 "af4974105976ecbc13366425c778f4f4084c7c79ca1668409ae5b69e1cb68428"
     end
   end
 
